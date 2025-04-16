@@ -27,7 +27,7 @@ jobs:
 
     - name: Run Simulation
       run: |
-        java -cp "lib/*:out" vmcloudsim
+        java -cp "lib/*:out" org.cloudbus.cloudsim.examples.vmcloudsim
 
     - name: Upload Simulation Logs
       uses: actions/upload-artifact@v4
